@@ -1,0 +1,28 @@
+.header{
+    background-color: #fff;
+    padding: 20px;
+    display: grid;
+
+    grid-template-rows: 1fr; /* Две строки с равными долями пространства */
+    grid-template-columns: 1.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1.2fr; /* Три столбца с разными долями пространства */
+
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+
+.headerLinks{
+    text-decoration: none;
+    color:black;
+}
+
+.hotlineCallingLogo{
+    margin-right: 10px;
+}
+
+.headerHotlineNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
