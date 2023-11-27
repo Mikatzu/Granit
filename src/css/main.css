@@ -1,14 +1,37 @@
 .mainContainer{
-    /*height: 20%;*/
-    margin: 50px;
-}
-.mainInfo{
-    /*color:#E0E0E0;*/
+
+    height: 2000px;
 
 }
-.mainInfo, h1{
-    color: #E0E0E0;
+
+.white_block{
+    background-color:white;
+    padding-top: 100px;
 }
-.mainInfo p{
+
+
+.mainInfo{
+    color:#E0E0E0;
+
+    padding-top: 4.5%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.block1 p{
+    padding-top: 10px;
+    opacity:50%
+}
+
+.block2Label1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.block2Label2{
     opacity: 50%;
+}
+.bigPicture{
+
 }

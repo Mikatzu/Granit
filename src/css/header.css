@@ -1,6 +1,6 @@
 header{
-    background-color: #fff;
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.70);
+    padding: 10px 0 10px 0;
     display: grid;
 
     grid-template-rows: 1fr; /* Две строки с равными долями пространства */
@@ -8,6 +8,9 @@ header{
 
     align-items: center;
     width: 100%;
+    position: fixed;
+
+    backdrop-filter: blur(15px);
 }
 
 
