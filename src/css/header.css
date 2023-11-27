@@ -1,4 +1,4 @@
-.header{
+header{
     background-color: #fff;
     padding: 20px;
     display: grid;
@@ -7,7 +7,6 @@
     grid-template-columns: 1.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1.2fr; /* Три столбца с разными долями пространства */
 
     align-items: center;
-    position: fixed;
     width: 100%;
 }
 

@@ -1,7 +1,14 @@
 .mainContainer{
     /*height: 20%;*/
+    margin: 50px;
 }
 .mainInfo{
-    color:#E0E0E0;
+    /*color:#E0E0E0;*/
 
+}
+.mainInfo, h1{
+    color: #E0E0E0;
+}
+.mainInfo p{
+    opacity: 50%;
 }
