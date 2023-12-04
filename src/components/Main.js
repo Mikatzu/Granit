@@ -1,5 +1,7 @@
 import React from "react";
 import bigPicture from "../../src/img/bigPicture.png"
+import callCircleDefault from "../../src/svg/defaultCall.svg"
+import callCircleFocus from "../../src/svg/focusCall.svg"
 class Main extends React.Component {
     render(){
         return(
@@ -22,13 +24,14 @@ class Main extends React.Component {
                         <p className="block2Label2">За счёт использования новейших видов шпунта, собственного парка техники и бесплатного аудита проекта.</p>
                     </div>
                 </div>
-                <a href="/">
+                <div className="callAndBigPicture">
                     <div className="callCircle">
-
+                        <img className="callCircleDefault" src={callCircleDefault} alt=""/>
+                        <img className="callCircleFocus" src={callCircleFocus} alt=""/>
                     </div>
-                </a>
-                <div className="bigPicture">
-                    <img src={bigPicture} alt=""/>
+                    <div className="bigPicture">
+                        <img src={bigPicture} alt=""/>
+                    </div>
                 </div>
             </div>
         )

@@ -32,6 +32,42 @@
 .block2Label2{
     opacity: 50%;
 }
-.bigPicture{
 
+.callAndBigPicture{
+    margin-top: 2%;
+}
+
+.bigPicture{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 234px 234px 0 0;
+    z-index: -3;
+}
+.bigPicture img{
+    border-radius: inherit;
+}
+
+.callCircle{
+    position:absolute;
+    z-index: -1;
+    left: 16.4%;
+}
+
+.callCircleDefault{
+    position: inherit;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.callCircleDefault:hover{
+    opacity: 0;
+}
+
+.callCircleFocus{
+    position: inherit;
+    z-index: -2;
 }
