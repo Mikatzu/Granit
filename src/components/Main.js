@@ -25,10 +25,12 @@ class Main extends React.Component {
                     </div>
                 </div>
                 <div className="callAndBigPicture">
+                    <a className="callCircleLink" href="/">
                     <div className="callCircle">
                         <img className="callCircleDefault" src={callCircleDefault} alt=""/>
                         <img className="callCircleFocus" src={callCircleFocus} alt=""/>
                     </div>
+                    </a>
                     <div className="bigPicture">
                         <img src={bigPicture} alt=""/>
                     </div>

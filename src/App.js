@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "./components/Header"
 import Main from "./components/Main"
+import CompanyInfo from "./components/CompanyInfo"
 
 class App extends React.Component {
     render() {
@@ -8,6 +9,7 @@ class App extends React.Component {
             <div className="MainPage">
             <Header></Header>
             <Main></Main>
+            <CompanyInfo></CompanyInfo>
             </div>
         )
     }

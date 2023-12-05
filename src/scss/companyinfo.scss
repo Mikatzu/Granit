@@ -1,0 +1,25 @@
+.aboutCompany{
+  position: relative;
+}
+
+.aboutCompanyLine{
+  display: flex;
+}
+
+.aboutCompanyInfo{
+  color: white;
+}
+
+.aboutCompanyInfo h1{
+  font-weight: 500;
+  font-size: 32px;
+  //line-height: 37.5;
+}
+
+.aboutCompanyInfo p{
+  color:rgba(224, 224, 224, 0.5);
+  font-size: 18.75px;
+}
+
+.managerAndWorkers{
+}

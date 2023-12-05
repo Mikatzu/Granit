@@ -1,9 +1,10 @@
 import React from "react"
 import * as ReactDOMClient from 'react-dom/client'
 import App from './App'
-import './css/style.css'
-import './css/header.css'
-import './css/main.css'
+import './scss/style.scss'
+import './scss/header.scss'
+import './scss/main.scss'
+import './scss/companyinfo.scss'
 
 const app = ReactDOMClient.createRoot(document.getElementById("app"));
 
